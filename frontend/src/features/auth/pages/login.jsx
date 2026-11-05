@@ -1,5 +1,5 @@
  import React from 'react'
- 
+ import styles from './auth.form.module.scss'
  const Login = () => {
    return (
     <main style={{
@@ -9,9 +9,9 @@
         justifyContent:"center",
         backgroundColor:"rgb(71, 69, 69)"
     }}>
-        <div className="form-container">
+        <div className={styles['form-container']}>
             <h1>Login</h1>
-            <form>
+            <form className={styles['form-container-form']}>
                 <label htmlFor="login-email">Email</label>
                 <input type="text" id='login-email' />
                 <label htmlFor="login-pass">Password</label>

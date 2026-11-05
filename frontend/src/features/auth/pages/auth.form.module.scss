@@ -1,0 +1,28 @@
+.form-container{
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.form-container-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40%;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.form-container form input{
+    border-radius: 30px;
+    border: 2px solid black;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    font-size: large;
+}
