@@ -1,0 +1,23 @@
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+
+    transition: all 0.2s ease-in-out;
+
+    &.login-button{
+        background-color: rgb(240, 82, 109);
+        color: white;
+    }
+    &.register-button{
+        background-color: gold;
+        color: rgb(23, 19, 19);
+    }
+    &:hover{
+        transform: scale(1.1);
+    }
+    &:active{
+        background-color: pink;
+    }
+}
